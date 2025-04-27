@@ -3,9 +3,9 @@ description: Report a problem or unexpected behavior.
 title: "[Bug]: "
 labels: ["bug"]
 # Optional: Link issues to a specific project board. Remove if not needed.
-projects: ["vetlekise/backlog"]
-assignees:
-  - vetlekise
+#projects: ["vetlekise/backlog"]
+#assignees:
+#  - vetlekise
 body:
   - type: input
     id: affected-service-hardware

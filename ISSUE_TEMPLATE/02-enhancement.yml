@@ -3,9 +3,9 @@ description: Suggest an idea, enhancement, or new feature.
 title: "[Enhancement]: "
 labels: ["enhancement"]
 # Optional: Link issues to a specific project board. Remove if not needed.
-projects: ["vetlekise/backlog"]
-assignees:
-  - vetlekise
+#projects: ["vetlekise/backlog"]
+#assignees:
+#  - vetlekise
 body:
   - type: textarea
     id: feature-description
