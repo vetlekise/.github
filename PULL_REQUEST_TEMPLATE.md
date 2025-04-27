@@ -1,4 +1,12 @@
-## Type of merge request
+---
+name: Default Pull Request
+about: Describe the changes proposed in this pull request.
+title: 'Brief description of changes'
+labels: ''
+assignees: ''
+---
+
+## Type
 
 <!-- Please delete lines that are not relevant and mark [x] the remaining relevant options -->
 
