@@ -1,1 +1,0 @@
-![R2D2](docs/images/r2d2-fall.gif)
