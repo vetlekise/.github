@@ -15,7 +15,6 @@ body:
       placeholder: "e.g., Implement automated backups for the Nextcloud instance."
     validations:
       required: true
-
   - type: textarea
     id: motivation
     attributes:
@@ -24,7 +23,6 @@ body:
       placeholder: "e.g., Currently, Nextcloud data is not backed up, risking data loss. Automated backups would ensure data safety."
     validations:
       required: true
-
   - type: textarea
     id: proposed-solution
     attributes:
@@ -33,7 +31,6 @@ body:
       placeholder: "e.g., Use Duplicati in a Docker container to back up Nextcloud data volume to a NAS share."
     validations:
       required: false
-
   - type: textarea
     id: alternatives
     attributes:
@@ -42,7 +39,6 @@ body:
       placeholder: "e.g., Manually copying files, using Nextcloud's built-in backup app (if applicable)."
     validations:
       required: false
-
   - type: markdown
     attributes:
       value: |
