@@ -1,11 +1,3 @@
----
-name: Default Pull Request
-about: Describe the changes proposed in this pull request.
-title: ''
-labels: ''
-assignees: ''
----
-
 ## Type
 
 <!-- Please delete lines that are not relevant and mark [x] the remaining relevant options -->
