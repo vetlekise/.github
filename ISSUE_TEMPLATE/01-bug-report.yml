@@ -1,0 +1,69 @@
+name: Bug Report
+description: Report a problem or unexpected behavior.
+title: "[Bug]: "
+labels: ["bug"]
+# Optional: Link issues to a specific project board. Remove if not needed.
+projects: ["vetlekise/backlog"]
+assignees:
+  - vetlekise
+body:
+  - type: input
+    id: affected-service-hardware
+    attributes:
+      label: Affected Service or Hardware
+      description: "Which component is experiencing the issue?"
+      placeholder: "e.g., Docker container 'pihole'"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem-description
+    attributes:
+      label: Describe the Bug
+      description: "What did you expect to happen, and what actually happened?"
+      placeholder: "e.g., Expected Pi-hole admin interface to load, but instead got a 502 Bad Gateway error."
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps-to-reproduce
+    attributes:
+      label: Steps to Reproduce
+      description: "How can someone else reproduce this behavior? (Optional)"
+      placeholder: |
+        1. Navigated to http://pi.hole/admin
+        2. Entered password
+        3. Clicked Login
+        4. See error...
+    validations:
+      required: false
+
+  - type: textarea
+    id: environment-details
+    attributes:
+      label: Environment Details (Optional)
+      description: "Provide details about the environment where the issue occurred."
+      placeholder: |
+        - OS: Ubuntu 22.04 on Proxmox VE 8.1
+        - Software: Docker v25.0.3, Pi-hole v5.17
+        - Hardware: Dell Optiplex Micro running Proxmox
+        - Network Config: VLAN 10, Static IP 192.168.10.5
+        - Related Config Files: (Attach below or link)
+      render: markdown
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant Log Output (Optional)
+      description: "Copy and paste any relevant log output."
+      render: shell
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        **Screenshots/Additional Context**
+        If applicable, add screenshots or any other context about the problem here.
