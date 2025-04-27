@@ -1,6 +1,6 @@
-name: Feature Request
+name: Enhancement Request
 description: Suggest an idea, enhancement, or new feature.
-title: "[Feature]: "
+title: "[Enhancement]: "
 labels: ["enhancement"]
 # Optional: Link issues to a specific project board. Remove if not needed.
 projects: ["vetlekise/backlog"]
