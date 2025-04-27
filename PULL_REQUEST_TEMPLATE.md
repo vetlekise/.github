@@ -1,7 +1,7 @@
 ---
 name: Default Pull Request
 about: Describe the changes proposed in this pull request.
-title: 'Brief description of changes'
+title: ''
 labels: ''
 assignees: ''
 ---
